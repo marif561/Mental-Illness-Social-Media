@@ -1,0 +1,23 @@
+# Deep-learning baselines (paper Table 3); RoBERTa input embeddings
+learning_rate: 1.0e-5
+adam_eps: 1.0e-8
+max_grad_norm: 1.0
+batch_size: 16
+patience: 5
+max_len_title: 35
+max_len_post: 512
+
+cnn:
+  kernels: [3, 4]    # "# of kernel: 2 (3, 4)"
+  filters: 100       # not given in the paper
+  dropout: 0.1
+
+lstm:
+  hidden: 250
+  rnn_layers: 1
+  dropout: 0.2
+
+bilstm:
+  hidden: 250
+  rnn_layers: 1
+  dropout: 0.2

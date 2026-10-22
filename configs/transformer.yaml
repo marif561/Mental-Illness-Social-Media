@@ -1,0 +1,17 @@
+# Proposed Transformer encoder (paper Table 3 and Section 5.1)
+learning_rate: 1.0e-5
+adam_eps: 1.0e-8
+max_grad_norm: 1.0
+batch_size: 16
+patience: 5          # early stopping on dev micro-F1
+max_len_title: 35
+max_len_post: 512
+
+layers: 2
+heads: 2
+ff_dim: 250          # "hidden units"
+dropout: 0.2
+# Table 3 prints "d model = 2", which cannot hold 2 attention heads over RoBERTa
+# embeddings and is likely a typesetting error. We keep the 768-d RoBERTa embedding
+# size; set a smaller value to add a linear projection before the encoder.
+d_model: 768

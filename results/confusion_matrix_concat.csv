@@ -1,0 +1,7 @@
+true\predicted,adhd,anxiety,bipolar,depression,ptsd,none
+adhd,224,10,5,6,3,0
+anxiety,1,222,1,19,5,0
+bipolar,9,8,211,16,3,1
+depression,3,8,12,219,6,0
+ptsd,0,19,9,7,213,0
+none,0,1,1,1,1,244

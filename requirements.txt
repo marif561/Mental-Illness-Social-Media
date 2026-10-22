@@ -1,0 +1,10 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+pyyaml>=6.0
+torch>=2.0
+transformers>=4.41
+datasets>=2.14
+accelerate>=0.25
+sentencepiece>=0.1.99
+pytest>=7.0

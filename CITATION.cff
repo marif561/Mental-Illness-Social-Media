@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Mental Illness Classification on Social Media Texts Using Deep Learning and Transfer Learning"
+repository-code: "https://github.com/marif561/Mental-Illness-Social-Media"
+license: MIT
+authors:
+  - family-names: Arif
+    given-names: Muhammad
+  - family-names: Ameer
+    given-names: Iqra
+  - family-names: Bölücü
+    given-names: Necva
+  - family-names: Sidorov
+    given-names: Grigori
+  - family-names: Gelbukh
+    given-names: Alexander
+  - family-names: Elangovan
+    given-names: Vinnayak
+keywords:
+  - mental illness classification
+  - transformer
+  - late fusion
+  - transfer learning
+  - Reddit
+preferred-citation:
+  type: article
+  title: "Mental Illness Classification on Social Media Texts Using Deep Learning and Transfer Learning"
+  journal: "Computación y Sistemas"
+  volume: 28
+  issue: 2
+  start: 451
+  end: 464
+  year: 2024
+  doi: "10.13053/CyS-28-2-4873"
+  authors:
+    - family-names: Arif
+      given-names: Muhammad
+    - family-names: Ameer
+      given-names: Iqra
+    - family-names: Bölücü
+      given-names: Necva
+    - family-names: Sidorov
+      given-names: Grigori
+    - family-names: Gelbukh
+      given-names: Alexander
+    - family-names: Elangovan
+      given-names: Vinnayak

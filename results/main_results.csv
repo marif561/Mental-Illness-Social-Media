@@ -1,0 +1,13 @@
+family,model,input,f1,precision,recall
+Proposed,Transformer + concatenation fusion,title+post,89.65,89.86,89.58
+Prior SOTA,RoBERTa (Murarka et al. 2021),title+post,89.00,89.00,89.00
+Classical ML,LinearSVC,post,77.18,77.66,77.15
+Classical ML,Logistic Regression,post,77.87,78.24,77.89
+Classical ML,Multinomial NB,post,66.49,72.18,66.73
+Classical ML,Random Forest,post,70.85,72.46,70.50
+Deep learning,CNN,post,81.64,82.84,82.65
+Deep learning,LSTM,post,83.73,84.10,83.60
+Deep learning,BiLSTM,post,83.84,84.06,83.74
+Transfer learning,BERT,post,80.82,80.87,80.85
+Transfer learning,ALBERT,post,80.45,80.90,80.38
+Transfer learning,RoBERTa,post,84.41,85.10,84.41

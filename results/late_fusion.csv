@@ -1,0 +1,6 @@
+fusion,precision,recall,f1,adhd_f1,anxiety_f1,bipolar_f1,depression_f1,ptsd_f1,none_f1
+concatenation,89.86,89.58,89.65,92,86,87,85,89,99
+average,88.06,87.70,87.78,92,85,84,82,87,97
+weighted_average,86.68,85.69,85.85,89,79,85,80,86,97
+maximum,87.81,87.50,87.60,92,84,84,82,87,98
+minimum,88.04,87.84,87.86,92,84,84,84,86,98

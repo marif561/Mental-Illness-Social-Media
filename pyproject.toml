@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mentalnlp"
+version = "1.0.0"
+description = "Mental illness classification on Reddit posts with late-fusion Transformers"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Muhammad Arif" }, { name = "Iqra Ameer" }, { name = "Necva Bölücü" },
+  { name = "Grigori Sidorov" }, { name = "Alexander Gelbukh" }, { name = "Vinnayak Elangovan" },
+]
+dependencies = ["pandas", "numpy", "scikit-learn>=1.2", "pyyaml"]
+
+[project.optional-dependencies]
+neural = ["torch>=2.0", "transformers>=4.41", "datasets>=2.14", "accelerate>=0.25", "sentencepiece"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
